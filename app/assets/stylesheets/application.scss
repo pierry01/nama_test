@@ -1,1 +1,17 @@
 @import "bootstrap";
+
+// Kaminari //
+.page-link {
+  background-color: unset;
+  color: #000;
+  outline: none;
+}
+
+.page-link:focus { box-shadow: none }
+.page-link:hover { color: #000 }
+
+.page-item.active .page-link {
+  background-color: #999;
+  border-color: #999;
+}
+// Kaminari //

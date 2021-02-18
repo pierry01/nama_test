@@ -1,24 +1,15 @@
-# README
+# Nama Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* Ruby version: ruby 2.7.2p137
 
 * Configuration
-
-* Database creation
-
-* Database initialization
+$ git clone https://github.com/pierry01/nama_test
+$ bundle
+$ rails db:create db:migrate
+$ rails s
 
 * How to run the test suite
+$ rspec
 
 * Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+UploadDataJob: receives a TXT file, parse it and populate the database correctly
